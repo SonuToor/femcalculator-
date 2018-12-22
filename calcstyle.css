@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+.result-screen {
+    color: white;
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    padding: 20px 5px;
+    font-size: 45px;
+    width: 25%;
+    background-color: black;
+}
+
+.calc-buttons {
+    width: 25%;
+    background-color: black;
+}
+
+.calc-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+
+.double-button {
+    width: 50%;
+    background-color: rgb(216, 217, 219);
+    padding: 20px 5px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.triple-button {
+    width: 75%;
+    background-color: rgb(216, 217, 219);
+    padding: 20px 5px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.input-button {
+    background-color: rgb(216, 217, 219);
+    width: 24.5%;
+    padding: 20px 5px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.operator-button {
+    color: white;
+    background-color: rgb(223, 151, 76);
+    width: 24.5%;
+    padding: 20px 5px;
+    font-size: 45px;
+    cursor: pointer;
+}
+.input-button:hover, .double-button:hover, .triple-button:hover {
+    background-color:rgb(190, 192, 196);
+}
+.operator-button:hover {
+    background-color: rgb(179, 129, 88);
+}
+.input-button:active , .double-button:active , .triple-button:active {
+    background-color: #bbbcbe;
+}
+
+.operator-button:active {
+    background-color: #dd8d37;
+}
